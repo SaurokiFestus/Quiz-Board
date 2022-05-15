@@ -25,16 +25,13 @@ var questionBox= [
 
 
 var question= document.getElementById('question');
-var quizBoxContainer = document.getElementById('quizBoxContainer');
 var a_text= document.getElementById('a_text');
 var b_text= document.getElementById('b_text');
 var c_text= document.getElementById('c_text');
 var d_text= document.getElementById('d_text');
-var next= document.querySelector('.next');
-var points= document.getElementById('score');
 var span= document.querySelectorAll('span');
 var i=0;
-var score=0;
+
 var startBtn = document.getElementById("startBtn")
 
 
@@ -51,42 +48,6 @@ function displayQuestion(){
 }
 
 displayQuestion();
-
-
-
-next.addEventListener('click',nextQuestion);
-
-
-
-function nextQuestion(){
-    if(i<questionBox.length-1)
-    {
-        i=i+1;
-        displayQuestion();
-    }
-    else{
-        points.innerHTML= score+ '/'+ questionBox.length;
-        quizBoxContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
-    }
-}
-
-
-
-
-
-function calcScore(f){
-    if(f.innerHTML===questionBox[i].answer && score<questionBox.length)
-    {
-        score= score+1;
-        document.getElementById(f.id).style.background= 'green';
-    }
-    else{
-        document.getElementById(f.id).style.background= 'red';
-    }
-    setTimeout(nextQuestion,300);
-}
-
 
 
 startBtn.addEventListener('click', startQuiz)
