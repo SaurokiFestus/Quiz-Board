@@ -75,14 +75,14 @@ function nextQuestion(){
 
 
 
-function calcscore(f){
+function calcScore(f){
     if(f.innerHTML===questionBox[i].answer && score<questionBox.length)
     {
         score= score+1;
-        document.getElementById(f.id).style.background= 'limegreen';
+        document.getElementById(f.id).style.background= 'green';
     }
     else{
-        document.getElementById(f.id).style.background= 'tomato';
+        document.getElementById(f.id).style.background= 'red';
     }
     setTimeout(nextQuestion,300);
 }
