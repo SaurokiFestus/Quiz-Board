@@ -24,7 +24,7 @@ var questionBox= [
 
 
 
-var question= document.getElementById('question')
+var question= document.getElementById('question');
 var quizBoxContainer = document.getElementById('quizBoxContainer');
 var a_text= document.getElementById('a_text');
 var b_text= document.getElementById('b_text');
@@ -38,7 +38,7 @@ var score=0;
 var startBtn = document.getElementById("startBtn")
 
 
-function displayQuestion(){
+function displayquestion(){
     for(var a=0;a<span.length;a++){
         span[a].style.background='none';
     }
