@@ -38,7 +38,7 @@ var score=0;
 var startBtn = document.getElementById("startBtn")
 
 
-function displayquestion(){
+function displayQuestion(){
     for(var a=0;a<span.length;a++){
         span[a].style.background='none';
     }
@@ -54,7 +54,7 @@ displayQuestion();
 
 
 
-next.addEventListener('click',nextQuestion);
+next.addEventListener('click',nextQuestion)
 
 
 
