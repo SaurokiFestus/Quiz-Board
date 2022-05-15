@@ -1,6 +1,6 @@
 var questionBox= [
     {
-        question : '1. Who invented JavaScript',
+        question : '1. Who invented JavaScript?',
         choice : ['Sheryl Sandberg','Brendan Eich','Douglas Crockforde','Albert Byrone'],
         answer : 'Albert Byrone'
     },
