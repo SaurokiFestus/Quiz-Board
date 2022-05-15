@@ -6,7 +6,7 @@ var questionBox= [
     },
     {
         question : '2. Which one of these is a JavaScript package manager?',
-        choice : ['Node.j','TypeScript','Html','npm'],
+        choice : ['Node.js','TypeScript','Html','npm'],
         answer : 'npm'
     },
     {
@@ -17,7 +17,7 @@ var questionBox= [
     {
         question : '4. Which tool can you use to ensure code quality?',
         choice : ['Angular','jQuery','RequireJS','ESLint'],
-        answer : 'ESLint'
+        answer : 'ESLin'
     },
 
 ]
