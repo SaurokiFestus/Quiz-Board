@@ -17,7 +17,7 @@
 
  ## Description
 
- <p>This project is a simple web based quiz application which is used by students to take a test on what they recently learnt on javascript. They will answer the multiple choice questions on the website, and after submitting their answers, they will know what they scored on the website. The students will be provided with a start quiz button which enables them to access the questions. They will also be provided with a few questions with their multiple choices by which they select the answers simply by clicking on the choices. The interface shold be able to tell the student whether the choice selected is right or wrong using colors effect on the choices, red being wrong and green being right.</p>
+ <p>This project is a simpl web based quiz application which is used by students to take a test on what they recently learnt on javascript. They will answer the multiple choice questions on the website, and after submitting their answers, they will know what they scored on the website. The students will be provided with a start quiz button which enables them to access the questions. They will also be provided with a few questions with their multiple choices by which they select the answers simply by clicking on the choices. The interface shold be able to tell the student whether the choice selected is right or wrong using colors effect on the choices, red being wrong and green being right.</p>
 
 [Go Back to the top](#quiz-board-app)
 
