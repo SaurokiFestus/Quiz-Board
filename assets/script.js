@@ -17,14 +17,14 @@ var questionBox= [
     {
         question : '4. Which tool can you use to ensure code quality?',
         choice : ['Angular','jQuery','RequireJS','ESLint'],
-        answer : 'ESLin'
+        answer : 'ESLint'
     },
 
 ]
 
 
 
-var question= document.getElementById('question');
+var question= document.getElementById('question')
 var quizBoxContainer = document.getElementById('quizBoxContainer');
 var a_text= document.getElementById('a_text');
 var b_text= document.getElementById('b_text');
