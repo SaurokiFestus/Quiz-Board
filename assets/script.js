@@ -6,7 +6,7 @@ var questionBox= [
     },
     {
         question : '2. Which one of these is a JavaScript package manager?',
-        choice : ['Node.js','TypeScript','Html','npm'],
+        choice : ['Node.j','TypeScript','Html','npm'],
         answer : 'npm'
     },
     {
