@@ -54,7 +54,7 @@ displayQuestion();
 
 
 
-next.addEventListener('click',nextQuestion)
+next.addEventListener('click',nextQuestion);
 
 
 
@@ -75,7 +75,7 @@ function nextQuestion(){
 
 
 
-function calcScore(f){
+function calcscore(f){
     if(f.innerHTML===questionBox[i].answer && score<questionBox.length)
     {
         score= score+1;
