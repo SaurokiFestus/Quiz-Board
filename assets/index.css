@@ -13,13 +13,13 @@ body{
     border-radius: 6px;
     padding: 70px;
     box-shadow: 0 0 10px 2px;
-    font-size: 29px;
+    font-size: 30px;
 }
 
 .choices{
     margin-top: 20px;
     border-bottom: 5px solid rgb(178, 234, 178);
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 .buttons{ 
